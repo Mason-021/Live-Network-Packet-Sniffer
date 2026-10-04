@@ -1,0 +1,9 @@
+# 1. Ignore the vrtual environment directory
+venv/
+
+# 2. Ignore all python files by default
+*.py
+# 3. Explicitly allow tracking of your target script
+!sniffer.py
+# 4. Exlude also the packet capture files(.pcap)
+*.pcap
